@@ -35,7 +35,7 @@ use v20.0.0
 ### [5]エラー解決しなかったので、以下を実行
 npm config set legacy-peer-deps true
 
-### [6]インストールが成功したので、Material-UI読み込み(index.htmlを編集)
+### [6]インストールが成功したので、Material-UI読み込み(public/index.htmlを編集)
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -49,3 +49,7 @@ git commit -m 'initial commit'
 git remote add origin git@github.com:yojichiba/chatbot-react-demo.git
 
 git push origin master
+### [8]必要モジュールが揃ったので環境の最終確認
+npm start
+
+以上!
